@@ -1,0 +1,115 @@
+:host {
+    --primary: #183F6B !important;
+    --lightblue: #edf1f5 !important;
+    --white: #ffffff !important;
+    --link: #07A8C6 !important;
+    --grayfade: #898989 !important;
+}
+
+/* if you want the undeline on <a> tag, remove this line */a {text-decoration: none;}
+
+/* main colors start */
+    .primary-color {
+    color: var(--primary) !important;  
+    }
+
+    .lightblue-color {
+    color: var(--lightblue) !important;  
+    }
+
+    .white-color {
+    color: var(--white) !important;  
+    }
+    
+    .link-color {
+    color: var(--link) !important;  
+    }
+
+    .no-color {
+        color: #07a9c600;
+    }
+/* main colors end */
+
+/* main background start */
+    .primary-background {
+    background-color: var(--primary) !important;
+    }
+
+    .lightblue-background {
+    background-color: var(--lightblue) !important;
+    }
+
+    .white-background {
+    background-color: var(--white) !important;
+    }
+
+    .no-background {
+        color: #07a9c600;
+    }
+/* main background end */
+
+/* custom small nav start */
+.nav-link {
+    color: var(--grayfade);
+}
+.nav-link.active {
+    color: var(--white);
+}
+/* custom small nav end */
+
+/* custom animation start */
+.fadeIn {
+    animation: animate 2s;
+}
+@keyframes animate {
+  
+    0%{
+        opacity: 0%;
+    }
+    100%{
+          opacity: 100%;
+      }
+  }
+
+.fadeIn-2 {
+    animation: animate 2s;
+    animation-duration: 1.5s;
+}
+@keyframes animate {
+  
+    0%{
+        opacity: 7%;
+    }
+    100%{
+          opacity: 100%;
+      }
+  }
+
+  .fadeIn-3 {
+    animation: animate 2s;
+    animation-duration: 2s;
+}
+@keyframes animate {
+  
+    0%{
+        opacity: 10%;
+    }
+    100%{
+          opacity: 100%;
+      }
+  }
+
+  .fadeIn-4 {
+    animation: animate 2s;
+    animation-duration: 2.5s;
+}
+@keyframes animate {
+  
+    0%{
+        opacity: 14%;
+    }
+    100%{
+          opacity: 100%;
+      }
+  }
+/* custom animation end */
