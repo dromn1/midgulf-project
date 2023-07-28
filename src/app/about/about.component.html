@@ -1,42 +1,13 @@
 <!-- Banner Container Start -->
-<div class="container-fulid primary-background rounded-4 mx-3 fadeIn">
-    <div class="row d-flex justify-content-center">
-    <div class="col-md-6 px-5 pt-5 mt-5">
-        <div class="col-12">
-            <p class="primary-color fs-1 fw-bold white-color mt-5">About us</p>
+<div class="container-fulid lightblue-background c-banner-rounded fadeIn background-img d-flex align-items-end">
+    <div class="col-md-5 rounded-end-4 primary-background py-2 ps-5 mt-5 ">
+        <div class="col-12 ms-5">
+            <p class="primary-color fs-2 fw-bold white-color mt-2 mb-1">THE COMPANY</p>
         </div>
-        <div class="col-12">
-            <p class="primary-color fs4 white-color mb-5">The company</p>
-        </div>
-        <div class="col-12">
-            <!-- small nav start -->
-            <nav class="navbar navbar-expand-lg no-background border-top">
-                <div class="container-fluid">
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link disabled">Disabled</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </nav>
-            <!-- small nav end -->
+        <div class="col-12 ms-5">
+            <p class="fs-3 fw-medium link-color mb-4">About Us</p>
         </div>
     </div>
-  </div>
 </div>
 <!-- Banner Container End -->
 
@@ -44,38 +15,77 @@
 <!-- First Container Start -->
 <div class="container mt-5">
     <div class="row d-flex justify-content-center">
-    <div class="col-md-6 p-5 fadeIn-2">
-        <div class="col-12">
-            <p class="primary-color fs-1 fw-bold">{{card_name_s1_1}}</p>
+      <div class="col-md-3 text-center">
+        <img class="fadeIn-3" [src]="img" height="100" alt="MidGulf Office">
         </div>
+    <div class="col-md-9 fadeIn-2">
         <div class="col-12">
-            <p class="primary-color fs4">{{card_text_s1_1}}</p>
+            <p class="primary-color">The Mediterranean and Gulf Cooperative Insurance and Reinsurance Company (MEDGULF) is one of the Kingdoms largest insurance companies, providing a comprehensive choice of cooperative Health, Motor, Property and other insurance and reinsurance services. Licensed and controlled by Saudi central bank, Licensing number EM/3/ 97200 and a paid-up capital of 1,050,000,000 SAR and a commercial registration number: 101231925</p>
         </div>
-        <div class="col-12">
-            <p class="primary-color fs4">{{card_text_s1_2}}</p>
-        </div>
-        <div class="col-12">
-            <p class="primary-color fs4">{{card_text_s1_3}}<a href="#" class="text-capitalize link-color"> {{scb}}</a></p>
-        </div>
-    </div>
-    <div class="col-md-6 text-center">
-    <img class="rounded-4  fadeIn-3" [src]="img" [height]="img_height" alt="MidGulf Office">
     </div>
   </div>
 </div>
 <!-- First Container End -->
 
 <!-- Second Container Start -->
-<div class="container lightblue-background rounded-4 mt-5  fadeIn-4">
-    <div class="row d-flex justify-content-start">
-    <div class="col-md-6 p-5">
-        <div class="col-12">
-            <p class="primary-color fs-1 fw-bold">{{card_name_s2_1}}</p>
-        </div>
-        <div class="col-12">
-            <p class="primary-color fs4">{{card_text_s2_1}}</p>
-        </div>
-    </div>
+<div class="container-fluid lightblue-background mt-5 p-5">
+  <div class="container d-flex justify-content-center">
+  <div class="col-md-12 lightblue-background fadeIn-2">
+      <div class="col-12">
+          <p class="">In a rapidly growing and changing sector, MEDGULF contributes to providing you the best customer service and acquiring your needs. We offer various insurance solutions that suit most industries from engineering, aviation and industrials to motor, property insurance and health care for groups.</p>
+      </div>
   </div>
 </div>
+</div>
 <!-- Second Container End -->
+
+<!-- Third Container Start -->
+<div class="container-fluid">
+  <div class="container city-background rounded-4 mt-5 fadeIn-4">
+    <div class="row">
+      <!-- v1 -->
+    <div class="col-md-4 p-5 text-center">
+        <div class="col-12">
+            <img height="70" [src]="bookmark_icon" alt="">
+        </div>
+        <div class="col-12 my-3">
+          <p class="link-color display-3 fw-bold">{{year_value}}</p>
+        </div>
+        <div class="col-12">
+          <p class="primary-color fs-3 fw-bold">Years</p>
+        </div>
+    </div>
+    <!-- v1 -->
+
+    <!-- v2 -->
+    <div class="col-md-4 p-5 text-center">
+      <div class="col-12">
+          <img height="70" [src]="gps_icon" alt="">
+      </div>
+      <div class="col-12 my-3">
+        <p class="link-color display-3 fw-bold">{{gps_value}}</p>
+      </div>
+      <div class="col-12">
+        <p class="primary-color fs-3 fw-bold">Points of sale</p>
+      </div>
+    </div>
+    <!-- v2 -->
+
+    <!-- v3 -->
+    <div class="col-md-4 p-5 text-center">
+      <div class="col-12">
+          <img height="70" [src]="location_icon" alt="">
+      </div>
+      <div class="col-12 my-3">
+        <p class="link-color display-3 fw-bold">{{location_value}}</p>
+      </div>
+      <div class="col-12">
+        <p class="primary-color fs-3 fw-bold">Branches</p>
+      </div>
+    </div>
+  <!-- v3 -->
+  </div>
+</div>
+</div>
+
+<!-- Third Container End -->

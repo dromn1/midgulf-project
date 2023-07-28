@@ -6,6 +6,8 @@
     --grayfade: #898989 !important;
 }
 
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
 /* if you want the undeline on <a> tag, remove this line */a {text-decoration: none;}
 
 /* main colors start */
@@ -55,13 +57,6 @@
     background-size: cover;
     min-height: 30rem;
 }
-
-.city-background {
-    background: url('../../assets/city_icon.svg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position:center ;
-}
 /* custom background end */
 
 /* rounded borders for banner start */
@@ -69,60 +64,3 @@
     border-radius: 0px 0px 220px 0px;
 }
 /* rounded borders for banner end */
-
-/* custom animation start */
-.fadeIn {
-    animation: animate 2s;
-}
-@keyframes animate {
-  
-    0%{
-        opacity: 0%;
-    }
-    100%{
-          opacity: 100%;
-      }
-  }
-
-.fadeIn-2 {
-    animation: animate 2s;
-    animation-duration: 1.5s;
-}
-@keyframes animate {
-  
-    0%{
-        opacity: 7%;
-    }
-    100%{
-          opacity: 100%;
-      }
-  }
-
-  .fadeIn-3 {
-    animation: animate 2s;
-    animation-duration: 2s;
-}
-@keyframes animate {
-  
-    0%{
-        opacity: 10%;
-    }
-    100%{
-          opacity: 100%;
-      }
-  }
-
-  .fadeIn-4 {
-    animation: animate 2s;
-    animation-duration: 2.5s;
-}
-@keyframes animate {
-  
-    0%{
-        opacity: 14%;
-    }
-    100%{
-          opacity: 100%;
-      }
-  }
-/* custom animation end */
