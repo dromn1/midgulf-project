@@ -52,15 +52,9 @@
 
 /* custom background start */
 .background-img {
-    background: url('../../assets/midgulf_office.jpg');
+    background: url('../../assets/company_banner.png');
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 30rem;
 }
 /* custom background end */
-
-/* rounded borders for banner start */
-.c-banner-rounded {
-    border-radius: 0px 0px 220px 0px;
-}
-/* rounded borders for banner end */
