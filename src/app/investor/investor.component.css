@@ -1,0 +1,150 @@
+:host {
+    --primary: #183F6B !important;
+    --lightblue: #edf1f5 !important;
+    --white: #ffffff !important;
+    --link: #07A8C6 !important;
+    --grayfade: #D9D9D9 !important;
+    --bluegray: #183F6B80 !important;
+}
+
+/* if you want the undeline on <a> tag, remove this line */a {text-decoration: none;}
+
+/* main colors start */
+    .primary-color {
+    color: var(--primary) !important;  
+    }
+
+    .lightblue-color {
+    color: var(--lightblue) !important;  
+    }
+
+    .white-color {
+    color: var(--white) !important;  
+    }
+    
+    .link-color {
+    color: var(--link) !important;  
+    }
+
+    .gray-color {
+        color: var(--grayfade) !important;  
+    }
+
+    .bluegray-color {
+            color: var(--bluegray) !important;  
+    }
+
+    .no-color {
+        color: #07a9c600;
+    }
+/* main colors end */
+
+/* main background start */
+    .primary-background {
+    background-color: var(--primary) !important;
+    }
+
+    .lightblue-background {
+    background-color: var(--lightblue) !important;
+    }
+
+    .white-background {
+    background-color: var(--white) !important;
+    }
+
+    .link-background {
+        background-color: var(--link) !important;
+    
+    }
+    .gray-background {
+        background-color: var(--grayfade) !important;
+    }
+
+    .bluegray-background {
+        background-color: var(--bluegray) !important;
+    }
+    .no-background {
+        color: #07a9c600;
+    }
+/* main background end */
+
+/* custom background start */
+.background-img {
+    background: url('../../assets/company_banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 30rem;
+}
+/* custom background end */
+
+/* custom animation start */
+.fadeIn {
+    animation: animate 2s;
+}
+
+.float-animation:hover {
+    animation: float 0.5s forwards;
+}
+
+@keyframes animate {
+  
+    0%{
+        opacity: 0%;
+    }
+    100%{
+          opacity: 100%;
+      }
+  }
+
+.fadeIn-2 {
+    animation: animate 2s;
+    animation-duration: 1.5s;
+}
+@keyframes animate {
+  
+    0%{
+        opacity: 7%;
+    }
+    100%{
+          opacity: 100%;
+      }
+  }
+
+  .fadeIn-3 {
+    animation: animate 2s;
+    animation-duration: 2s;
+}
+@keyframes animate {
+  
+    0%{
+        opacity: 10%;
+    }
+    100%{
+          opacity: 100%;
+      }
+  }
+
+  .fadeIn-4 {
+    animation: animate 2s;
+    animation-duration: 2.5s;
+}
+@keyframes animate {
+  
+    0%{
+        opacity: 14%;
+    }
+    100%{
+          opacity: 100%;
+      }
+  }
+
+  @keyframes float {
+    from{
+      transform: translateY(0px);
+    }
+    to{
+      transform: translateY(-7px);
+      box-shadow: 0px 30px 20px -10px rgb(196, 196, 196);
+    }
+  }
+/* custom animation end */
