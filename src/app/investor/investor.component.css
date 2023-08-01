@@ -7,6 +7,8 @@
     --bluegray: #183F6B80 !important;
 }
 
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
 /* if you want the undeline on <a> tag, remove this line */a {text-decoration: none;}
 
 /* main colors start */
@@ -77,6 +79,43 @@
 }
 /* custom background end */
 
+/* Table style start */
+.tbl-container {
+    max-height: fit-content;
+}
+
+.tbl-fixed {
+    overflow-x: scroll;
+    overflow-y: scroll;
+    height: fit-content;
+    max-height: 70vh;
+}
+
+/* custom scroll bar */
+.tbl-fixed::-webkit-scrollbar {
+    width: 0.5em !important;
+  }
+
+  .tbl-fixed::-webkit-scrollbar-track {
+    background-color: var(--primary) !important;
+    margin-block: .3 !important;
+    margin-inline: 1em !important;
+    border-radius: 100vw !important;
+    background: var(--white) !important;
+    }
+
+  .tbl-fixed::-webkit-scrollbar-thumb {
+    background: var(--link) !important;
+    border-radius: 100vw !important;
+  }
+/* Tbale style end */
+
+/* Hover */
+.hoverly:hover {
+    animation: hoverly 0.5s forwards;
+}
+/* Hover */
+
 /* custom animation start */
 .fadeIn {
     animation: animate 2s;
@@ -145,6 +184,16 @@
     to{
       transform: translateY(-7px);
       box-shadow: 0px 30px 20px -10px rgb(196, 196, 196);
+    }
+  }
+
+  @keyframes hoverly {
+    from{
+      box-shadow: 0px 0px 0px 0px var(--link);
+    }
+    to{
+        box-shadow: 0px -25px 2px -7px var(--link);
+        border-radius: 5000%;
     }
   }
 /* custom animation end */
