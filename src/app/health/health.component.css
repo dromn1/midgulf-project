@@ -1,0 +1,77 @@
+:host {
+    --primary: #183F6B !important;
+    --lightblue: #edf1f5 !important;
+    --white: #ffffff !important;
+    --link: #24bbd6 !important;
+    --grayfade: #898989 !important;
+    --bluefade: #fafefe !important;
+}
+
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+/* if you want the undeline on <a> tag, remove this line */a {text-decoration: none;}
+
+/* main colors start */
+    .primary-color {
+    color: var(--primary) !important;  
+    }
+
+    .lightblue-color {
+    color: var(--lightblue) !important;  
+    }
+
+    .white-color {
+    color: var(--white) !important;  
+    }
+    
+    .link-color {
+    color: var(--link) !important;  
+    }
+
+    .no-color {
+        color: #07a9c600;
+    }
+/* main colors end */
+
+/* main background start */
+    .primary-background {
+    background-color: var(--primary) !important;
+    }
+
+    .lightblue-background {
+    background-color: var(--lightblue) !important;
+    }
+
+    .white-background {
+    background-color: var(--white) !important;
+    }
+
+    .bluefade-background {
+        background-color: var(--bluefade);
+    }
+    
+    .no-background {
+        background-color: #07a9c600;
+    }
+/* main background end */
+
+/* custom background start */
+.background-img {
+    background: url('../../assets/company_banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 30rem;
+}
+/* custom background end */
+
+/* custom boredr start */
+.border-c {
+    border: 0.5px solid var(--lightblue);
+}
+/* custom boredr end */
+
+/* custom img size start */
+.img-size {
+    max-height: 20rem !important;
+}
+/* custom img size end */

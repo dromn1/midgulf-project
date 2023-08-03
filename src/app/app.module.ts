@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
 import { ShariyahComponent } from './shariyah/shariyah.component';
 import { InvestorComponent } from './investor/investor.component';
+import { HealthComponent } from './health/health.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { InvestorComponent } from './investor/investor.component';
     AboutComponent,
     ShariyahComponent,
     InvestorComponent,
+    HealthComponent,
   ],
   imports: [
     BrowserModule,
